@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="93">
+    <author>johnwayne1930</author>
+    <version>1.0.0.0</version>
+
+	<title>
+		<en>Farm Shack Object Storage</en>
+		<de>Hofscheune Objekt Lager</de>
+	</title>	
+		
+	<description>
+<en><![CDATA[
+Farm Shack for bales and pallets.
+
+Price: $10,000
+Daily Upkeep: $44
+Capacity: 35 objects
+]]></en>
+<de><![CDATA[
+Hofscheune für Ballen und Paletten.
+
+Preis: €10.000
+Unterhaltskosten: €44
+Kapazität: 35 Objekte
+]]></de>
+	</description>
+
+    <iconFilename>icon_farmShack01ObjectStorage.dds</iconFilename>
+
+    <multiplayer supported="true" />
+
+    <storeItems>
+        <storeItem xmlFilename="farmShack01ObjectStorage.xml"/>
+    </storeItems>
+		
+	<l10n>
+		<text name="storeItem_farmShack01ObjectStorage">
+			<en>Farm Shack Object Storage</en>
+			<de>Hofscheune Objekt Lager</de>
+		</text>
+	</l10n>
+
+	</modDesc>
